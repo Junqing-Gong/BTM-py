@@ -9,7 +9,8 @@ Biterm Topic Model in Python3
 ## Usage
 ```
 cd src
-python main.py
+python main.py / python main_torch.py   # CPU / GPU
 ```
 
-Replace all `np` in the code with `torch` if U want to use the GPU.
+## 20News
+See README.md in dataset dir to install 20News, then `python run_on_20news.py`.
