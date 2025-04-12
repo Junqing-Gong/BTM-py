@@ -7,6 +7,7 @@ import numpy as np
 import pickle as pk
 from tqdm import tqdm
 from collections import defaultdict
+import sklearn
 
 def preprocess(input_txt_path):
     word2id, doc_with_idx = {}, []
